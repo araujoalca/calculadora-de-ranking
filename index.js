@@ -24,25 +24,6 @@ Gere como SAÍDA a seguinte mensagem:
 
 
 
-// Criando as variáveis para armazenar os dados do Herói
-let totalVitorias = 50;
-let totalDerrotas = 0;
-let saldoVitorias = 0;
-let nivelHeroi = "";
-
-
-// Definindo os vários níveis do jogo:
-const NIVEL_FERRO = 10;
-const NIVEL_BRONZE = 20;
-const NIVEL_PRATA = 50;
-const NIVEL_OURO = 80;
-const NIVEL_DIAMANTE = 90;
-const NIVEL_LENDARIO = 100;
-const NIVEL_IMORTAL = NIVEL_LENDARIO + 1;
-
-
-
-
 ////////////////////////////////////////////////////////////////
 ///////  CALCULAR O SALDO DE VITÓRIAS DE UM HERÓI /////////////
 //////////////////////////////////////////////////////////////
@@ -88,6 +69,24 @@ function determinarNivel(saldoVit) {
     return nivelDeterminado;
 }
 
+
+
+
+// Criando as variáveis para armazenar os dados do Herói
+let totalVitorias = 11;
+let totalDerrotas = 0;
+let saldoVitorias = 0;
+let nivelHeroi = "";
+
+
+// Definindo os vários níveis do jogo:
+const NIVEL_FERRO = 10;
+const NIVEL_BRONZE = 20;
+const NIVEL_PRATA = 50;
+const NIVEL_OURO = 80;
+const NIVEL_DIAMANTE = 90;
+const NIVEL_LENDARIO = 100;
+const NIVEL_IMORTAL = NIVEL_LENDARIO + 1;
 
 
 /////////////////////////////////////////////////////////
